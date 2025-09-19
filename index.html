@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherPro App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Lienzo de fondo animado -->
+  <canvas id="bgCanvas"></canvas>
+
+  <div class="app">
+    <header>
+      <h1>🌍 WeatherPro</h1>
+      <p>Consulta el clima en cualquier ciudad del mundo</p>
+    </header>
+
+    <main>
+      <div class="search-box">
+        <input type="text" id="cityInput" placeholder="Ej: Buenos Aires, AR">
+        <button id="searchBtn">Buscar</button>
+      </div>
+
+      <div id="weatherCard" class="card hidden">
+        <h2 id="cityName"></h2>
+        <p id="date"></p>
+        <div class="weather-info">
+          <img id="weatherIcon" src="" alt="Icono clima">
+          <div>
+            <p class="temp"><span id="temperature"></span>°C</p>
+            <p id="description"></p>
+          </div>
+        </div>
+        <div class="extra-info">
+          <p>💨 Viento: <span id="wind"></span> km/h</p>
+          <p>💧 Humedad: <span id="humidity"></span>%</p>
+        </div>
+      </div>
+
+      <p id="errorMsg" class="error hidden">⚠️ Ciudad no encontrada</p>
+    </main>
+
+    <footer>
+      <p>Desarrollado por <strong>Luciano Montes De Oca</strong> | 🌐 OpenWeather API</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
