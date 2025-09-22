@@ -15,13 +15,7 @@ El diseño incluye **animaciones atractivas, cambios de estilo dinámicos según
 - 📱 Diseño **responsive** y optimizado para móvil y desktop.  
 - ✨ Animaciones suaves con CSS y JavaScript.  
 
----
-
-## 🖼️ Vista previa
-![Vista previa](./preview.png)  
-*(Podés agregar un screenshot de tu app guardándolo como `preview.png` en el repo)*
-
----
+_____
 
 ## 🛠️ Tecnologías utilizadas
 - **HTML5**  
@@ -29,7 +23,7 @@ El diseño incluye **animaciones atractivas, cambios de estilo dinámicos según
 - **JavaScript (Fetch API)**  
 - **OpenWeatherMap API**  
 
----
+_____
 
 ## ⚙️ Instalación y uso
 1. Clonar el repositorio:
